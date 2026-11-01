@@ -37,7 +37,7 @@ setupDatabase().then((db) => {
 
         // INTEGRAÇÃO COM DISCORD
         if (status === 'offline') {
-            const webhookUrl = 'https://discord.com/api/webhooks/1566591404505956373/pNp-ARK6L1jE1DEdJyhobsEs7oDfdMWVXG1Fp4cZgScvtuVt8n2Y3mLufdUn6tQLJuzw'; 
+            const webhookUrl = process.env.DISCORD_WEBHOOK_URL || 'https://discord.com/api/webhooks/SEU_WEBHOOK_AQUI'; 
             
             // O Node.js usa o 'fetch' para fazer chamadas HTTP a outras APIs
             fetch(webhookUrl, {
