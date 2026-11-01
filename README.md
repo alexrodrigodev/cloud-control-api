@@ -1,6 +1,6 @@
 # ☁️ Cloud Control API
 
-Uma API REST desenvolvida para monitorização de infraestrutura B2B. O sistema permite registar servidores, acompanhar o estado de saúde (pings) e disparar alertas automáticos em tempo real (via Webhook) sempre que uma falha de sistema é detetada.
+Uma API REST desenvolvida para monitorização de infraestrutura B2B. O sistema permite registar servidores, acompanhar o estado de saúde (pings) e disparar alertas automáticos em tempo real (via Webhook) sempre que uma falha de sistema é detectada.
 
 Este projeto foi desenvolvido com foco em arquitetura limpa, tipagem estática e integração contínua, simulando um ambiente real de operações de Cloud.
 
